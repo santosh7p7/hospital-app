@@ -1,0 +1,32 @@
+<%= form_for(@chat) do |f| %>
+  <% if @chat.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@chat.errors.count, "error") %> prohibited this chat from being saved:</h2>
+
+      <ul>
+      <% @chat.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+  <p>
+    <% if @chat.parent_chat_id %>
+       Reply To: <%= @chat.main.content %>
+       <%= f.hidden_field :parent_chat_id %>
+    <% end %>
+  </p>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.collection_select :user_id, @users, :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

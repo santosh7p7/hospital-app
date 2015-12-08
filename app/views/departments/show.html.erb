@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @department.name %>
+</p>
+<p>
+  <b>Users:</b>
+  <% @department.users.each do |user| %>
+    <%= user.name %><br />
+  <% end %>
+</p>
+
+
+<%= link_to 'Edit', edit_department_path(@department) %> |
+<%= link_to 'Back', departments_path %>

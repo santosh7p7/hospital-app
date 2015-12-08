@@ -1,0 +1,360 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+.headerDivider {
+     border-left:1px solid #38546d; 
+     border-right:1px solid #16222c; 
+     height:80px;
+     position:absolute;
+     top:10px; 
+}
+.label-warning {
+  background-color: #FFFF9D;
+}
+.label-warning[href]:hover,
+.label-warning[href]:focus {
+  background-color: #D1D181;
+}
+td.orangebg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #FF7F50;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.smallorangebg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #FF7F50;
+    color: black; 
+    font-size: 85%;
+    word-wrap: break-word;
+}
+
+td.redbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #DD1E2F;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.smallredbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #FF4040;
+    color: black;
+    font-size: 85%;
+    word-wrap: break-word;
+}
+
+td.smallyellowbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #EEDD6F;
+    color: black; 
+    font-size: 85%;
+    word-wrap: break-word;
+}
+
+td.yellowbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #EEDD6F;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.release
+{
+    text-align: center;
+    background-color: teal;
+    color: white; 
+    font-size: 150%;
+    word-wrap: break-word;
+}
+
+td.pinkbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #E198B2;
+    font-size: 85%;
+    word-wrap: break-word;
+    color: black;
+}
+
+td.greenbg
+{
+    background-color: #9EB847;
+    font-size: 125%;
+    color:black; 
+    word-wrap: break-word;
+}
+
+td.smallgreenbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #7ABA7A;
+    font-size: 85%;
+    color: black; 
+    word-wrap: break-word;
+}
+
+td.goldbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #CFB86A;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.smallgoldbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #CFB86A;
+    font-size: 85%;
+    color: black; 
+    word-wrap: break-word;
+}
+
+td.smalllightgraybg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #E8E8E8;
+    font-size: 85%;
+    color: black;
+    word-wrap: break-word;
+}
+
+td.smallgraybg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #C0C0C0;
+    font-size: 85%;
+    color: black;
+    word-wrap: break-word;
+}
+
+
+td.smalldarkgraybg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #707070;
+    font-size: 85%;
+    color: black;
+    word-wrap: break-word;
+}
+
+a.smallgraybg:link {color: #000000; text-decoration: underline; font-size: 100%;}
+a.smallgraybg:visited {color: #000000;}
+a.smallgraybg:hover {color: #335A9A;}
+a.smallgraybg:focus {color: #FCF141;}
+a.smallgraybg:active {color: #FCF141;}
+
+
+a.smallredbg:link {color: #FCF141; text-decoration: underline; font-size: 100%;}
+a.smallredbg:visited {color: #FCF141;}
+a.smallredbg:hover {color: #335A9A;}
+a.smallredbg:focus {color: #FCF141;}
+a.smallredbg:active {color: #FCF141;}
+
+a.smallblackbg:link {color: black; text-decoration: underline; font-size: 100%;}
+a.smallblackbg:visited {color: black;}
+a.smallblackbg:hover {color: black;}
+a.smallblackbg:focus {color: black;}
+a.smallblackbg:active {color: black;}
+
+a.smallwhitebg:link {color: white; text-decoration: underline; font-size: 100%;}
+a.smallwhitebg:visited {color: white;}
+a.smallwhitebg:hover {color: #FCF141;}
+a.smallwhitebg:focus {color: #FCF141;}
+a.smallwhitebg:active {color: #FCF141;}
+
+td.tealbg
+{
+     background-color: teal;
+     font-size: 100%;
+     color: white; 
+     word-wrap: break-word;
+}
+
+td.greybg
+{
+     border-style: solid;
+     border-color: white;
+     background-color: #727B84;
+     font-size: 150%;
+     color: white; 
+     word-wrap: break-word;
+}
+
+td.smallgreybg
+{
+     border-style: solid;
+     border-color: white;
+     background-color: #727B84;
+     font-size: 85%;
+     color: white; 
+     word-wrap: break-word;
+}
+
+td.outergreybg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #727B84;
+}
+
+td.smallbluebg
+{
+     border-style: solid;
+     border-color: white;
+     background-color: #7EA4B2;
+     font-size: 85%;
+     color: black; 
+     text-align: right;
+}
+
+td.bluebg
+{
+     border-style: solid;
+     border-color: white;
+     background-color: #7EA4B2;
+     font-size: 150%;
+     color: black; 
+     word-wrap: break-word;
+     text-align: right;
+}
+
+td.bluebgnoborder
+{
+     background-color: #81C6DD;
+     font-size: 150%;
+     color: white; 
+     word-wrap: break-word;
+     text-align:right;
+}
+
+td.fix_width
+{
+   font-size: 75%;
+   width: 100px; 
+}
+
+td.colorbg
+{
+   background-color: #CDCCD7;
+   width:100px; 
+   font-size:75%;
+	
+}
+
+td.dashboard
+{
+        background-color: Cornsilk;
+ 	border-style: solid;
+	border-color: black;
+ 	text-align: center;
+        color: Teal;
+        white-space:nowrap;
+        font-weight: bold;
+ 	text-align: left;
+        font-size:100%
+}
+
+td.subdashboard
+{
+ 	border-style: solid;
+	border-color: black;
+        color: Teal;
+        background-color: LemonChiffon;
+        white-space:wrap;
+        text:bold;
+	border-width: 2px;
+        font-size:125%;
+}
+
+table.header {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: outset;
+	border-collapse: collapse;
+	background-color: white;
+        width: 100%;
+}
+
+table.header td{
+	border-width: 1px;
+	padding: 0px;
+        text-align: left;
+}
+
+td.shelfbg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #82BEF3;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.freezebg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #1D88EA;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+td.releasebg
+{
+    border-style: solid;
+    border-color: white;
+    background-color: #0D4F8B;
+    color: black; 
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+
+td.smallfont
+{
+    font-size: 85%;
+}
+
+td.centertext
+{
+    text-align: center;
+    vertical-align: middle;
+}

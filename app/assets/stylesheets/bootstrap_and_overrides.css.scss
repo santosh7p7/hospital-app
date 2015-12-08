@@ -1,0 +1,71 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+ }
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  font-family:"Courier New", Monospace;
+  font-weight:bold;
+ }
+ 
+form {
+  margin: 0 auto 20px;
+  background-color: #FBFBEF;
+  border: 1px solid #e5e5e5;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+   border-radius: 20px;
+ }
+      
+.form-small {
+   max-width: 300px;
+ } 
+
+h2{
+  color: #1869AA; 
+}
+ .navbar-inner {
+   background-color: #1869AA; 
+   background-image: none;
+   background-repeat: no-repeat;
+   filter: none;
+  }
+
+ .navbar .brand, .navbar .nav > li > a, .navbar-link {
+   color: #fff;
+   text-shadow: 0 0px 0 white;
+  }
+
+.navbar-text {
+   color: #E6D363;
+}
+
+.breadcrumb .dropdown-menu li {
+    display: block;
+}
+
+td {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: outset;
+	border-collapse: collapse;
+	background-color: white;
+        font-size:75%;
+}
+
+th
+{
+   background-color: #CDCCD7;
+   border-width: 1px;
+   border-style: outset;
+}
+

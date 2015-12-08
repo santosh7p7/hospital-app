@@ -1,0 +1,33 @@
+<h1>Chats</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Chat</th>
+    <th>Replies</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @chats.each do |chat| %>
+  <tr>
+    <td><%= chat.user.name %></td>
+    <td><%= chat.content %></td>
+    <td><% chat.replies.each do |chat| %>
+           <%= chat.content %> <br />
+           Posted by: <%=chat.user.name %> at <%= chat.created_at %><br />  
+        <% end %>
+    </td>
+    <td><%= link_to 'Reply', new_chat_path(parent_chat_id: chat.id) %></td>
+    <td><%= link_to 'Show', chat %></td>
+    <td><%= link_to 'Edit', edit_chat_path(chat) %></td>
+    <td><%= link_to 'Destroy', chat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Chat', new_chat_path %>
